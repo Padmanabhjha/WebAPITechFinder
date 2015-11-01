@@ -166,7 +166,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app.js" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
@@ -175,29 +174,9 @@
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="css\bootstrap-theme.css" />
-    <Content Include="css\bootstrap-theme.min.css" />
-    <Content Include="css\bootstrap.css" />
-    <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\home.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="HtmlViews\home.html" />
-    <Content Include="HtmlViews\item.html" />
-    <Content Include="HtmlViews\map.html" />
-    <Content Include="HtmlViews\product.html" />
-    <Content Include="Index.html" />
-    <Content Include="js\blockUI.js" />
-    <Content Include="js\bootstrap.js" />
-    <Content Include="js\bootstrap.min.js" />
-    <Content Include="js\home.js" />
-    <Content Include="js\jquery-1.9.1.js" />
-    <Content Include="js\jquery-2.1.4.min.js" />
-    <Content Include="js\npm.js" />
-    <Content Include="ScriptControllers\homeController.js" />
-    <Content Include="ScriptControllers\itemController.js" />
-    <Content Include="ScriptControllers\productController.js" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
