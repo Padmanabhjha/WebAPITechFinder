@@ -31,9 +31,9 @@ namespace TechFinderWebAPI
                 DataSet ds = new DataSet();
             using (SqlConnection conn = new SqlConnection())
             {
-                conn.ConnectionString = @"Server=SCSBWIN-108289\SQLEXPRESS;Database=Tech_Find;Trusted_Connection=true";
+                conn.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="+@"C:\Users\padmanabh\Documents\visual studio 2015\Projects\WebAPITechFinder\WebAPITechFinder\App_Data\Database1.mdf"+";Integrated Security=True";
                 SqlCommand sqlComm = new SqlCommand("SP_FindTechnicianByLocation", conn);
-                sqlComm.Parameters.AddWithValue("@latitude", lat);
+                sqlComm.Parameters.AddWithValue("@lat", lat);
                 sqlComm.Parameters.AddWithValue("@longitude", longitude);
                 sqlComm.Parameters.AddWithValue("@skill", skill);
 
